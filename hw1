@@ -1,0 +1,51 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+/*
+Name: Timothy Proffitt
+Date: 6/7/2022
+======================================================================*/
+
+int main() {
+    //Program which receives two integers from keyboard and prints sum
+    int num1;
+    int num2;
+
+    cin >> num1;
+    cin >> num2;
+
+    cout << num1 + num2 << endl;
+
+    //Program to swap two nums
+    int swap1 = 0;
+    int swap2 = 1;
+    int temp;
+
+    temp = swap1;
+    swap1 = swap2;
+    swap2 = temp;
+
+    cout << swap1 << " " << swap2 << endl; //output to check to see if works
+
+    //Program to calculate volume of sphere with radius 5
+    double sphereRadius = 5;
+    double sphereVolume;
+
+    sphereVolume = (4.0) / (3.0) * M_PI * sphereRadius * sphereRadius * sphereRadius;
+
+    cout << sphereVolume << endl;  //output the answer
+
+    //Program to computer quotient and remainder with dividend 25 and divisor 3
+
+    int dividend1  = 25.0;
+    int divisor1 = 3.0;
+
+    int quotient = dividend1 / divisor1;
+    int remainder = dividend1 % divisor1;
+
+    cout << quotient << " " << remainder; //outputs the quotient and remainder with space in between to check answers.
+
+
+    return 0;
+}
